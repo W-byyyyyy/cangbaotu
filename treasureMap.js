@@ -68,9 +68,7 @@ class TreasureMap {
 
     static async decodeAncientScript(clue) {
         const validDecodedClues = [
-            "线索解密：宝藏位于日落时分阳光照耀的地方。",
-            "宝藏藏在古老大树的根部附近。",
-            "宝藏在山顶的神秘洞穴之中。"
+            "线索解密：宝藏密码：太阳"
         ];
         const randomDecodedClueIndex = this.getRandomNumber(0, validDecodedClues.length - 1);
         const decodedClue = validDecodedClues[randomDecodedClueIndex];
